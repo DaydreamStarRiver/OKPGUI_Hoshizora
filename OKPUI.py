@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+OKPGUI 主窗口 UI 模块
+
+该模块由 PyQt6 UI 代码生成器从 OKP.ui 文件生成，包含主窗口的 UI 定义。
+
+注意：此文件由 pyuic6 从 OKP.ui 文件生成，手动修改会在下次生成时丢失。
+"""
+
 # Form implementation generated from reading ui file 'OKP.ui'
 #
 # Created by: PyQt6 UI code generator 6.4.2
@@ -10,7 +20,17 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 
 
 class Ui_MainWindow(object):
+    """主窗口 UI 类
+    
+    该类定义了主窗口的所有 UI 组件和布局。
+    """
+    
     def setupUi(self, MainWindow):
+        """设置主窗口 UI
+        
+        Args:
+            MainWindow (QMainWindow): 主窗口实例
+        """
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(609, 950)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Expanding)
